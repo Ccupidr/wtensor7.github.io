@@ -370,6 +370,20 @@
 <blockquote>
 <p>只是，想要做些什么而已。</p>
 </blockquote>
+<p><code></code></p>
+<p>#include <iostream></iostream></p>
+<p>#include <cstdio></cstdio></p>
+<p>#include <algorithm></algorithm></p>
+<p>#include <cstring></cstring></p>
+<p>#include <string></string></p>
+<p>#include <cstdlib></cstdlib></p>
+<p>#include <vector></vector></p>
+<p>#include <map></map></p>
+<p>#include <set></set></p>
+<p>#include <stack></stack></p>
+<p>#include <queue></queue></p>
+<p>#include <bitset></bitset></p>
+<p>using namespace std;<br>const int maxn = 1e5+5;<br>struct node{<br>    int key;<br>    int next;<br>}a[maxn];<br>vector<int>v1,v2;<br>int vis[maxn];<br>int main(int argc, char *argv[]){<br>    int root,n;<br>    cin&gt;&gt;root&gt;&gt;n;<br>    for(int i=0;i&lt;n;i++){<br>        int x;<br>        cin&gt;&gt;x;<br>        cin&gt;&gt;a[x].key&gt;&gt;a[x].next;<br>    }<br>    for(int i=root;i!=-1;i = a[i].next){<br>        if(vis[abs(a[i].key)]){<br>            v2.push_back(i);<br>        }<br>        else {<br>            v1.push_back(i);<br>            vis[abs(a[i].key)] = 1;<br>        }<br>    }<br>    int l1 = v1.size(),l2 = v2.size();<br>    for(int i=0;i&lt;l1-1;i++){<br>        printf(“%05d %d %05d\n”,v1[i],a[v1[i]].key,v1[i+1]);<br>    }<br>    if(l1&gt;=1)<br>        printf(“%05d %d -1\n”,v1[l1-1],a[v1[l1-1]].key);<br>    for(int i=0;i&lt;l2-1;i++){<br>        printf(“%05d %d %05d\n”,v2[i],a[v2[i]].key,v2[i+1]);<br>    }<br>    if(l2&gt;=1)<br>        printf(“%05d %d -1\n”,v2[l2-1],a[v2[l2-1]].key);<br>    return 0;<br>}<br></int></p>
 
           
         
@@ -689,6 +703,8 @@
   
 
 
+  
+
 
 
 
@@ -727,6 +743,11 @@
   
   
     <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
   
 
 
