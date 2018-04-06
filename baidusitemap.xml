@@ -4,8 +4,38 @@
 
     
   <url>
+    <loc>http://hr7.xyz/2018/04/06/%E6%95%B0%E8%AE%BA/</loc>
+    <lastmod>2018-04-06T15:30:05.460Z</lastmod>
+    <data>
+        <display>
+        <title>数论</title>
+        <pubTime>2018-04-06T15:22:10.000Z</pubTime>
+        
+        <tag>数学</tag>
+         
+        <tag>数论</tag>
+         
+        <tag>公式</tag>
+         
+         
+           
+             
+              <breadCrumb title="数学" url="http://yoursite.com/categories/%E6%95%B0%E5%AD%A6/"/>
+          
+             
+              <breadCrumb title="数论" url="http://yoursite.com/categories/%E6%95%B0%E5%AD%A6/%E6%95%B0%E8%AE%BA/"/>
+          
+             
+              <breadCrumb title="公式" url="http://yoursite.com/categories/%E6%95%B0%E5%AD%A6/%E6%95%B0%E8%AE%BA/%E5%85%AC%E5%BC%8F/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://hr7.xyz/2018/04/04/%E8%AE%A1%E7%AE%97%E5%87%A0%E4%BD%95%E5%9F%BA%E7%A1%80/</loc>
-    <lastmod>2018-04-04T13:59:17.571Z</lastmod>
+    <lastmod>2018-04-06T13:36:59.880Z</lastmod>
     <data>
         <display>
         <title>计算几何基础</title>
